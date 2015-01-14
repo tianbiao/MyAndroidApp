@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">myAndroidApp</string>
+    <drawable name="clr_normal">#3366cc</drawable>
+    <drawable name="clr_pressed">#ff6501</drawable>
+
+</resources>

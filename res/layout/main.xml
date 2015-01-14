@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff">
+    <TextView
+            android:id="@+id/IP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="请输入IP地址：" android:gravity="center" />
+    <EditText
+            android:id="@+id/InputIP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_border"
+            android:textColor="@android:color/black"
+            android:gravity="center" />
+    <TextView
+            android:id="@+id/Show"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:lines="5"
+            android:gravity="center" />
+    <TextView
+            android:id="@+id/Device"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="设备ID" android:gravity="center" />
+    <TextView
+            android:id="@+id/ShowDevice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:background="@drawable/textview_border"
+            android:gravity="center" />
+    <TextView
+            android:id="@+id/Time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="时间" android:gravity="center" />
+    <TextView
+            android:id="@+id/ShowTime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:background="@drawable/textview_border"
+            android:gravity="center" />
+    <TextView
+            android:id="@+id/Latitude"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="纬度" android:gravity="center" />
+    <TextView
+            android:id="@+id/ShowLatitude"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:background="@drawable/textview_border"
+            android:gravity="center" />
+    <TextView
+            android:id="@+id/Longitude"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="经度" android:gravity="center" />
+    <TextView
+            android:id="@+id/ShowLongitude"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:background="@drawable/textview_border"
+            android:gravity="center" />
+    <TextView
+            android:id="@+id/Acceleration"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="加速度" android:gravity="center" />
+    <TextView
+            android:id="@+id/ShowAcceleration"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:background="@drawable/textview_border"
+            android:gravity="center" />
+    <TextView
+            android:id="@+id/Heartbeat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="心跳" android:gravity="center"  />
+    <TextView
+            android:id="@+id/ShowHeartbeat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:background="@drawable/textview_border"
+            android:gravity="center" />
+
+    <Button
+            android:id="@+id/Connection"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Connection"
+            android:background="@drawable/log_button_selector"
+            android:text="连接" />
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/Disconnect"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Disconnect"
+                android:background="@drawable/log_button_selector"
+                android:text="断开连接" />
+
+</LinearLayout>
